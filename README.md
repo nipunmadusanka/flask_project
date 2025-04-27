@@ -109,7 +109,7 @@ print(response.json())
 
 ## License
 
-[Add your license information here]
+--
 
 ## Acknowledgements
 
