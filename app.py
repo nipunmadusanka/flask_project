@@ -9,11 +9,10 @@ app = Flask(__name__)
 
 processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
 model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
-# testing if GPU is available
+
 # @app.route('/api/hello', methods=['GET'])
 # def hello_world():
 #     return jsonify(message="Hello", test=os.getenv('SECRET_KEY'))
-# this is feature branch  dfdfdf
 
 @app.route('/api/generate_caption', methods=['POST'])
 def generate_caption():
