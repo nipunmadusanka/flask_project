@@ -13,6 +13,7 @@ model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-capt
 # @app.route('/api/hello', methods=['GET'])
 # def hello_world():
 #     return jsonify(message="Hello", test=os.getenv('SECRET_KEY'))
+# this is feature branch  dfdfdf
 
 @app.route('/api/generate_caption', methods=['POST'])
 def generate_caption():
